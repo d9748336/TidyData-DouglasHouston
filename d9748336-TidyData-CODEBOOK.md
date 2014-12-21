@@ -16,6 +16,7 @@ LAYING
 measurements
 	These are the different types of readings that were taken as the subject performed the particular activity; the following are only those that calculated means or standard deviations (as specified by the exercise instructions) and so are the only ones that were included in the tidy data set. "X", "Y" and "Z" refer to the three different axes in three dimensional space the reading was taken in.
 	A leading "t" denote time; a leading "f" denotes frequency. 
+	Every variable has been normalised into a -1 to 1 range, thus are uniteless.
 tBodyAcc.mean...X
 tBodyAcc.mean...Y
 tBodyAcc.mean...Z
