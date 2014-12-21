@@ -10,7 +10,7 @@ The final output is "tidy" because it contains observations in the rows and vari
 
 There are some duplicate names in the original features.txt because the trailing -X, -Y or -Z has been accidentally omitted, but these are not a problem as none of the mean or std features names are affected (and it is only these that appear in the tidy data set).
 
-Please also inspect the contents of the run_analysis.R script as there are extensive comments describing each part of the code and what it is doing at each stage.
+Please also inspect the contents of the run_analysis.R script as there are extensive comments describing each part of the code and what it is doing at each stage. Also note the presence of d9748336-TidyData-CODEBOOK.md file in the repository - this contains descriptions of the variables present in the tidy data.
 
 PLEASE NOTE:
 The tidy data file ("tidy.txt") that the script writes is not formatted for reading in text readers. To be able to see the tidy tabulated formatting use the following code in RStudio:
