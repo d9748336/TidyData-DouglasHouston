@@ -11,7 +11,7 @@ The final output is "tidy" because it contains observations in the rows and vari
 Please also inspect the contents of the run_analysis.R script as there are extensive comments describing each part of code and what it is doing.
 
 PLEASE NOTE:
-The tidy data file ("tidy.txt") that the script writes is not formatted for reading in text readers. To be able to see the tidy tabulated formatting use:
+The tidy data file ("tidy.txt") that the script writes is not formatted for reading in text readers. To be able to see the tidy tabulated formatting use the following code in RStudio:
 
 data <- read.table("tidy.txt", header = TRUE)
 head(data) # Or any other function for inspecting the contents of objects
