@@ -9,3 +9,9 @@ The script run_analysis.R reads all of the pertinent data in the UCI HAR Dataset
 The final output is "tidy" because it contains observations in the rows and variables in the columns, one per column. Every column has been labelled with a heading that is readable in English (so no code numbers etc.). The features names as provided in the data set have been used to name the measurement columns as these are descriptive, although they have been converted to R syntactically correct ones using make.names in order to make future subsetting etc. more easy so that the user can easily map them back to the names in the original data. Descriptive activity names (e.g. "Walking" and "Walking Up") have been used to denote the activities.
 
 Please also inspect the contents of the run_analysis.R script as there are extensive comments describing each part of code and what it is doing.
+
+PLEASE NOTE:
+The tidy data file ("tidy.txt") that the script writes is not formatted for reading in text readers. To be able to see the tidy tabulated formatting use:
+
+data <- read.table("tidy.txt", header = TRUE)
+head(data) # Or any other function for inspecting the contents of objects
