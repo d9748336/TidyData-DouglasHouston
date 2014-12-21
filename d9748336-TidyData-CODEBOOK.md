@@ -1,6 +1,9 @@
 d9748336/TidyData-DouglasHouston 
 CODE BOOK
 
+BACKGROUND ON THE CONTENT OF THE RAW DATA
+	See the file "README.txt"
+
 subject
 	This is the codenumber of the person who took the readings (30 people in total).
 
